@@ -1,0 +1,38 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap: 10px;
+}
+
+#form {
+    background-color: rgb(248, 213, 255);
+    
+}
+
+
+#info {
+    background-color: rgb(187, 233, 255);
+}
+
+.pane {
+    width: 50vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infodiv {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
